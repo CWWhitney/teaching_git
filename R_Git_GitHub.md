@@ -153,10 +153,10 @@ right: 80%
 
 <img src="R_Git_GitHub-figure/git_logo_orange.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" width="35%" style="display: block; margin: auto;" />
 
-- `git reset --soft HEAD~1`   
+- `git reset --soft HEAD~1` or `commit SHA` 
 we undo our last commit, but the changes contained in that commit are not lost
 
-- `git reset --hard [commit hash]`
+- `git reset --hard HEAD~1` or `commit SHA`
 we discard all changes we've made in the working directory 
 
 <div class="footer" style="margin-top;font-size:60%;"> 
