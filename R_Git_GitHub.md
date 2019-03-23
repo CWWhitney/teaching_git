@@ -121,23 +121,6 @@ Some useful tips on getting these running from our friends
 - Nathan Stephens, a very helpful R blogger 
 <small>https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN</small>
 
-Git: Configure
-========================================================
-incremental: true
-right: 80%
-![](R_Git_GitHub-figure/git_logo.png)
-<small>https://git-scm.com/</small>
-
-***
-
-<img src="R_Git_GitHub-figure/git_logo_orange.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" width="35%" style="display: block; margin: auto;" />
-
-- `git reset --hard [commit hash]`
-danger, this will discard all changes you've made in your working directory 
-
-<div class="footer" style="margin-top;font-size:60%;"> 
-<https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html> </div>
-
 GitHub: intro hello-world
 ========================================================
 incremental: true
@@ -149,19 +132,33 @@ right: 80%
 - a friendly interface, no need to remember command line. 
 - useful features including issues, wikis etc.
 
-<img src="R_Git_GitHub-figure/Github-Icon-4.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
+<img src="R_Git_GitHub-figure/Github-Icon-4.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
 
 GitHub: intro hello-world
 ========================================================
 incremental: true
 
-![plot of chunk unnamed-chunk-6](R_Git_GitHub-figure/Hello_world.jpg)
+![plot of chunk unnamed-chunk-5](R_Git_GitHub-figure/Hello_world.jpg)
 
 <small>https://guides.github.com/activities/hello-world/</small>
 
-GitHub: intro hello-world
+Git: Command line
 ========================================================
 incremental: true
+right: 80%
+![](R_Git_GitHub-figure/git_logo.png)
+<small>https://git-scm.com/</small>
 
-- git reset --soft HEAD~1   we undo our last commit, but the changes contained in that commit are not lost
+***
+
+<img src="R_Git_GitHub-figure/git_logo_orange.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" width="35%" style="display: block; margin: auto;" />
+
+- `git reset --soft HEAD~1`   
+we undo our last commit, but the changes contained in that commit are not lost
+
+- `git reset --hard [commit hash]`
+we discard all changes we've made in the working directory 
+
+<div class="footer" style="margin-top;font-size:60%;"> 
+<https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html> </div>
 
