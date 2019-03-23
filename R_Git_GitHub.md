@@ -159,3 +159,9 @@ incremental: true
 
 <small>https://guides.github.com/activities/hello-world/</small>
 
+GitHub: intro hello-world
+========================================================
+incremental: true
+
+- git reset --soft HEAD~1   we undo our last commit, but the changes contained in that commit are not lost
+
