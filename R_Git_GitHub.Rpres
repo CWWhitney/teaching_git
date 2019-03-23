@@ -76,12 +76,13 @@ right: 80%
 
 ***
 
-An easier way
+your local repository consists of three "trees" maintained by git. the first one is your `Working Directory` which holds the actual files. the second one is the `Index` which acts as a staging area and finally the `HEAD` which points to the last commit you've made.
+
+***
 
 ```{r, fig.width=10, fig.height=5, fig.align='center', echo=FALSE}
 knitr::include_graphics('R_Git_GitHub-figure/git_areas.jpg')
 ```
-
 
 <div class="footer" style="margin-top;font-size:60%;"> http://rogerdudler.github.io/git-guide/ </div>
 
@@ -145,8 +146,6 @@ danger, this will discard all changes you've made in your working directory
 <div class="footer" style="margin-top;font-size:60%;"> 
 <https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html> </div>
 
-
-
 GitHub: intro hello-world
 ========================================================
 incremental: true
@@ -171,19 +170,4 @@ knitr::include_graphics('R_Git_GitHub-figure/Hello_world.jpg')
 ```
 
 <small>https://guides.github.com/activities/hello-world/</small>
-
-Tasks for the afternoon: Basic and Advanced
-========================================================
-incremental: true
-
-- Go through your scripts again
-- Add documentation
-- Create an Rmarkdown file
-- Export your script as html and pdf
-- Upload your script to git
-- Share your script with your classmates through git
-
-- **Help future R courses! Fill out the feedback form.**
-
-
 

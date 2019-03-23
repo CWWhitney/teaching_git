@@ -22,7 +22,7 @@ R is to RStudio as Git is to GitHub
 ========================================================
 author: Cory Whitney   (cory.whitney@uni-bonn.de)
 font-family: 'Helvetica'
-date: "2019-03-22"
+date: "2019-03-23"
 autosize: true
 css: mySlideTemplate.css
 <img src="R_Git_GitHub-figure/github.png" style="background:none; border:none; box-shadow:none;height="400"; width="400";"><img src="R_Git_GitHub-figure/INRES_Logo.png" style="background:none; border:none; box-shadow:none;height="100"; width="100";"><img src="R_Git_GitHub-figure/Uni_Bonn_Picture.png" style="background:none; border:none; box-shadow:none;height="200"; width="200";"><img src="R_Git_GitHub-figure/ZEF_Logo.png" style="background:none; border:none; box-shadow:none;height="200"; width="200";">
@@ -74,12 +74,13 @@ right: 80%
 
 ***
 
-An easier way
+your local repository consists of three "trees" maintained by git. the first one is your `Working Directory` which holds the actual files. the second one is the `Index` which acts as a staging area and finally the `HEAD` which points to the last commit you've made.
 
-<img src="R_Git_GitHub-figure/git_areas.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
+***
 
+<img src="R_Git_GitHub-figure/git_areas.jpg" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
 
-<div class="footer" style="margin-top;font-size:60%;"> http://r-bio.github.io/intro-git-rstudio/ </div>
+<div class="footer" style="margin-top;font-size:60%;"> http://rogerdudler.github.io/git-guide/ </div>
 
 Git and GitHub: getting stuck
 ========================================================
@@ -137,8 +138,6 @@ danger, this will discard all changes you've made in your working directory
 <div class="footer" style="margin-top;font-size:60%;"> 
 <https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html> </div>
 
-
-
 GitHub: intro hello-world
 ========================================================
 incremental: true
@@ -159,19 +158,4 @@ incremental: true
 ![plot of chunk unnamed-chunk-6](R_Git_GitHub-figure/Hello_world.jpg)
 
 <small>https://guides.github.com/activities/hello-world/</small>
-
-Tasks for the afternoon: Basic and Advanced
-========================================================
-incremental: true
-
-- Go through your scripts again
-- Add documentation
-- Create an Rmarkdown file
-- Export your script as html and pdf
-- Upload your script to git
-- Share your script with your classmates through git
-
-- **Help future R courses! Fill out the feedback form.**
-
-
 
