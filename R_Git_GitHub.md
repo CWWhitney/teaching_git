@@ -22,7 +22,7 @@ R is to RStudio as Git is to GitHub
 ========================================================
 author: Cory Whitney   (cory.whitney@uni-bonn.de)
 font-family: 'Helvetica'
-date: "2019-03-23"
+date: "2019-03-24"
 autosize: true
 css: mySlideTemplate.css
 <img src="R_Git_GitHub-figure/github.png" style="background:none; border:none; box-shadow:none;height="400"; width="400";"><img src="R_Git_GitHub-figure/INRES_Logo.png" style="background:none; border:none; box-shadow:none;height="100"; width="100";"><img src="R_Git_GitHub-figure/Uni_Bonn_Picture.png" style="background:none; border:none; box-shadow:none;height="200"; width="200";"><img src="R_Git_GitHub-figure/ZEF_Logo.png" style="background:none; border:none; box-shadow:none;height="200"; width="200";">
@@ -149,15 +149,19 @@ right: 80%
 ![](R_Git_GitHub-figure/git_logo.png)
 <small>https://git-scm.com/</small>
 
+
 ***
 
+
 <img src="R_Git_GitHub-figure/git_logo_orange.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" width="35%" style="display: block; margin: auto;" />
+
 
 - `git reset --soft HEAD~1` or `commit SHA` 
 we undo our last commit, but the changes contained in that commit are not lost
 
 - `git reset --hard HEAD~1` or `commit SHA`
 we discard all changes we've made in the working directory 
+
 
 <div class="footer" style="margin-top;font-size:60%;"> 
 <https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html> </div>
