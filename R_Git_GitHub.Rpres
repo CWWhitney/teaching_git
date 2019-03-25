@@ -19,6 +19,8 @@
 </style>
 
 
+
+
 R is to RStudio as Git is to GitHub 
 ========================================================
 author: Cory Whitney   (cory.whitney@uni-bonn.de)
