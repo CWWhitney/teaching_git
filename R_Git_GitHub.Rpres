@@ -19,8 +19,6 @@
 </style>
 
 
-
-
 R is to RStudio as Git is to GitHub 
 ========================================================
 author: Cory Whitney   (cory.whitney@uni-bonn.de)
@@ -56,16 +54,6 @@ right: 80%
 <small>https://git-scm.com/</small>
 
 ***
-
-
-# just a test 
-
-
-
-
-
-
-
 
 A better way to:
 - "undo" changes,
