@@ -35,7 +35,7 @@ incremental: true
 **Show of hands:**
 - use 'cmd z' or 'ctrl z'?
 - came to the office but left the work at home on another machine or USB?
-- tried to co-author papers by emailing files back and forth?
+- tried to co-author scripts by emailing files back and forth?
 
 <small>**Git** is an open source version control tool, **GitHub** is a company that hosts Git repositories in the web and provides a web interface to interact with repos they host.</small>
 
