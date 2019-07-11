@@ -23,7 +23,7 @@ R is to RStudio as Git is to GitHub
 ========================================================
 author: Cory Whitney   (cory.whitney@uni-bonn.de)
 font-family: 'Helvetica'
-date: "2019-05-28"
+date: "2019-07-11"
 autosize: true
 css: mySlideTemplate.css
 <img src="R_Git_GitHub-figure/github.png" style="background:none; border:none; box-shadow:none;height="400"; width="400";"><img src="R_Git_GitHub-figure/INRES_Logo.png" style="background:none; border:none; box-shadow:none;height="100"; width="100";"><img src="R_Git_GitHub-figure/Uni_Bonn_Picture.png" style="background:none; border:none; box-shadow:none;height="200"; width="200";"><img src="R_Git_GitHub-figure/ZEF_Logo.png" style="background:none; border:none; box-shadow:none;height="200"; width="200";">
@@ -128,7 +128,7 @@ right: 80%
 ![](R_Git_GitHub-figure/octocat.png)
 ***
 **GitHub** 
-- a commercial website that lets you store repository publicly for free (get an education account with an uni email address)
+- a commercial website that lets you store repository publicly for free [get an education account with an uni email address](https://help.github.com/en/articles/applying-for-an-educator-or-researcher-discount)
 - a friendly interface, no need to remember command line. 
 - useful features including issues, wikis etc.
 
