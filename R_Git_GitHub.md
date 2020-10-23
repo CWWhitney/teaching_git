@@ -120,7 +120,7 @@ Some useful tips on getting these running from our friends
 - Nathan Stephens, a very helpful R blogger 
 <small>https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN</small>
 
-GitHub: intro hello-world
+GitHub: host for your code
 ========================================================
 incremental: true
 right: 80%
